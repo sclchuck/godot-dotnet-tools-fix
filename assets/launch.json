@@ -6,13 +6,13 @@
       "type": "coreclr",
       "request": "launch",
       "program": "${config:godot-dotnet-tools.executablePath}",
-      "preLaunchTask": "build",
+      "preLaunchTask": "build_godot",
       "args": [
         "--path",
         "${workspaceRoot}"
       ],
       "cwd": "${workspaceFolder}",
-      "console": "internalConsole",
+      "console": "integratedTerminal",
       "stopAtEntry": false
     },
     {
@@ -20,14 +20,14 @@
       "type": "coreclr",
       "request": "launch",
       "program": "${config:godot-dotnet-tools.executablePath}",
-      "preLaunchTask": "build",
+      "preLaunchTask": "build_godot",
       "args": [
         "--path",
         "${workspaceRoot}",
         "--editor"
       ],
       "cwd": "${workspaceFolder}",
-      "console": "internalConsole",
+      "console": "integratedTerminal",
       "stopAtEntry": false
     },
     {
